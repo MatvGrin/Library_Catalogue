@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Network Registration Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="header">
+        <img class="header-slide" src="images/image1.png" alt="Slide 1">
+        <img class="header-slide" src="images/image2.png" alt="Slide 2">
+        <img class="header-slide" src="images/image3.png" alt="Slide 3">
+    </div>
+
+    <div class="title">Business Network Registration Form</div>
+
+    <form class="body" method="get">
+        <div class="row">
+
+            <div class="group">
+                <label for="fullName">Full Name</label>
+                <input id="fullName" type="text" name="fullName">
+            </div>
+
+            <div class="group">
+                <label for="title">Title</label>
+                <select id="title" name="title">
+                    <option>Please Select</option>
+                    <option>Mr</option>
+                    <option>Ms</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="group">
+            <label for="companyName">Company / Business Name</label>
+            <input id="companyName" type="text" name="companyName">
+        </div>
+
+        <div class="group">
+            <label>Address</label>
+            <input type="text" name="street1" placeholder="Street Address">
+            <div class="small-text">Street Address</div>
+        </div>
+
+
+        <div class="row">
+            <div class="group">
+                <input type="text" name="city" placeholder="City">
+                <div class="small-text">City</div>
+            </div>
+
+            <div class="group">
+                <input type="text" name="state" placeholder="State / Province">
+                <div class="small-text">State / Province</div>
+            </div>
+        </div>
+
+        <div class="group">
+            <input type="text" name="zip" placeholder="Postal / Zip Code">
+            <div class="small-text">Postal / Zip Code</div>
+        </div>
+
+        <div class="row">
+            <div class="group">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email">
+            </div>
+
+            <div class="group">
+                <label for="phone">Phone Number</label>
+                <input id="phone" type="tel" name="phone">
+            </div>
+        </div>
+
+        <div class="footer">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+<script src="js/slider.js"></script>
+
+</body>
+</html>
