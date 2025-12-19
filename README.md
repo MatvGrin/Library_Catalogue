@@ -25,8 +25,9 @@ The form body is divided into logical sections:<br>
    - Personal information<br>
    - Company information<br>
    - Address information<br>
-   - Contact information
-<br>Input fields are arranged in rows, with a two-column layout used where appropriate.<br>
+   - Contact information<br>
+   
+Input fields are arranged in rows, with a two-column layout used where appropriate.<br>
 Each input field has a label or placeholder for clarity.<br>
 Helper text is displayed for address-related fields.<br>
 The submit button is located at the bottom of the form and centered.<br>
