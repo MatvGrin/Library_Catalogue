@@ -1,6 +1,6 @@
 # Library_Catalogue
 
-Functional Requirements
+Functional Requirements<br>
 1.The web page shall provide a registration form for a business network.<br>
 2.The form shall allow the user to enter personal information, including full name and title.<br>
 3.The form shall allow the user to enter company or business name, address information, including street address, city, state/province, and postal/zip code, to enter contact information such as e-mail address and phone number.<br>
